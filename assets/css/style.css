@@ -149,12 +149,12 @@
 .last
 {
     background-color: #d3d3d3;
-    height: 75rem;
+    height: 60rem;
 }
 
 .green-box
 {
-    height: 60rem;
+    height: 50rem;
     background-color: #228b22;
     border: 2px dashed black;
 }
