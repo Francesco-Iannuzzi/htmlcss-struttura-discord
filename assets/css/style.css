@@ -46,34 +46,48 @@
     vertical-align: middle;
 }
 
-.logo-header
+.container-flex > .logo-header,
+.container-flex > .login-header
 {
     flex-grow: 1;
+}
+
+.container-flex > .link-header
+{
+    flex-grow: 3;
+}
+
+.logo-header
+{
     padding-left: 1rem;
     border: 2px dashed black;
 }
 
 .link-header
 {
-    flex-grow: 3;
     text-align: center;
     border: 2px dashed black;
 }
 
 .login-header
 {
-    flex-grow: 1;
     padding-right: 1rem;
     text-align: right;
     border: 2px dashed black;
 }
+
 /* #endregion up_header */
 
 /* region banner */
+
 .down_header
 {
     height: 35rem;
     background-color: #00008b;
+}
+
+.container-flex.down_header
+{
     justify-content: center;
     align-items: center;
 }
@@ -108,7 +122,7 @@
     height: 35rem;
 }
 
-.even > .card
+.even.container-flex > .card
 {
     flex-direction: row-reverse;
 }
@@ -170,15 +184,23 @@
 .salmon-box
 {
     background-color: #f08080;
-    flex-grow: 2;
     border: 2px dashed black;
+}
+
+.container-flex > .salmon-box
+{
+    flex-grow: 2;
 }
 
 .aquamarine-box
 {
     background-color: #20b2aa;
-    flex-grow: 1;
     border: 2px dashed white;
+}
+
+.container-flex > .aquamarine-box
+{
+    flex-grow: 1;
 }
 
 /* #endregion up_footer */
@@ -194,6 +216,10 @@
     height: 5rem;
     background-color: #7fffd4;
     margin-bottom: 0;
+}
+
+.container-flex.mint-box
+{
     justify-content: space-between;
     align-items: center;
 }
