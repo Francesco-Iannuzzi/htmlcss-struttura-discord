@@ -19,7 +19,7 @@
 
 /* #endregion common */
 
-.app_header
+#app_header
 {
     height: 40rem;
     background-color: black;
@@ -146,3 +146,66 @@
 /* #endregion last */
 /* #endregion main */
 
+/* #region footer */
+
+#app_footer
+{
+    height: 45rem;
+    background-color: #23272a;
+}
+
+/* #region up_footer */
+
+.up_footer
+{
+    height: 85%;
+}
+
+.nav_footer
+{
+    height: 35rem;
+    padding-top: 1rem;
+}
+
+.salmon-box
+{
+    background-color: #f08080;
+    flex-grow: 2;
+    border: 2px dashed black;
+}
+
+.aquamarine-box
+{
+    background-color: #20b2aa;
+    flex-grow: 1;
+    border: 2px dashed white;
+}
+
+/* #endregion up_footer */
+
+.down_footer
+{
+    height: 15%;
+    border-top: 2px solid white;
+}
+
+.mint-box
+{
+    height: 5rem;
+    background-color: #7fffd4;
+    margin-bottom: 0;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo_footer,
+#bottone
+{
+    background-color: #ffb6c1;
+    height: 2rem;
+    line-height: 2rem;
+    padding: 0 1rem;
+    border: 2px dashed black;
+}
+
+/* #endregion footer */
