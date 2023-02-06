@@ -87,4 +87,47 @@
 }
 /* #endregion down_header */
 
+/* #region main */
+
+/* #region section even and odd */
+
+.odd
+{
+    background-color: #ffffff;
+    height: 45rem;
+}
+
+.even
+{
+    background-color: #d3d3d3;
+    height: 45rem;
+}
+
+.card
+{
+    height: 35rem;
+}
+
+.even > .card
+{
+    flex-direction: row-reverse;
+}
+
+.blue-box
+{
+    background-color: #1e90ff;
+    width: 60%;
+    border: 2px dashed black;
+}
+
+.pink-box
+{
+    background-color: #ffc0cb;
+    width: 40%;
+    border: 2px dashed black;
+}
+
+/* #endregion even and odd */
+
+/* #endregion main */
 
