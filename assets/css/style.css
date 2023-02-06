@@ -6,4 +6,85 @@
    box-sizing: border-box;
 }
 
+.container
+{
+    width: 70%;
+    margin: auto;
+}
+
+.container-flex
+{
+    display: flex;
+}
+
 /* #endregion common */
+
+.app_header
+{
+    height: 40rem;
+    background-color: black;
+}
+
+/* #region up_header */
+.up_header
+{
+    height: 5rem;
+    background-color: #add8e6;
+    padding: 1rem 0;
+}
+
+.navigation
+{
+    background-color: #daa520;
+    line-height: 3rem;
+}
+
+.logo-header,
+.link-header,
+.login-header,
+{
+    vertical-align: middle;
+}
+
+.logo-header
+{
+    flex-grow: 1;
+    padding-left: 1rem;
+    border: 2px dashed black;
+}
+
+.link-header
+{
+    flex-grow: 3;
+    text-align: center;
+    border: 2px dashed black;
+}
+
+.login-header
+{
+    flex-grow: 1;
+    padding-right: 1rem;
+    text-align: right;
+    border: 2px dashed black;
+}
+/* #endregion up_header */
+
+/* region banner */
+.down_header
+{
+    height: 35rem;
+    background-color: #00008b;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner
+{
+    height: 28rem;
+    width: 70rem;
+    background-color: #ee82ee;
+    border: 2px dashed black;
+}
+/* #endregion down_header */
+
+
