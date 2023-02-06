@@ -95,7 +95,8 @@
 .banner
 {
     height: 28rem;
-    width: 70rem;
+    width: 55%;
+    margin: auto;
     background-color: #ee82ee;
     border: 2px dashed black;
 }
