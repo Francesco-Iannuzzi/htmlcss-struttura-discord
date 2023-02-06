@@ -94,7 +94,7 @@
 
 .banner
 {
-    height: 28rem;
+    height: 30rem;
     width: 55%;
     margin: auto;
     background-color: #ee82ee;
@@ -109,13 +109,13 @@
 .odd
 {
     background-color: #ffffff;
-    height: 45rem;
+    height: 40rem;
 }
 
 .even
 {
     background-color: #d3d3d3;
-    height: 45rem;
+    height: 40rem;
 }
 
 .card
@@ -154,7 +154,7 @@
 
 .green-box
 {
-    height: 50rem;
+    height: 55rem;
     background-color: #228b22;
     border: 2px dashed black;
 }
