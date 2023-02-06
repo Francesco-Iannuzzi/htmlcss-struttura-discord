@@ -129,5 +129,20 @@
 
 /* #endregion even and odd */
 
+/* #region last */
+
+.last
+{
+    background-color: #d3d3d3;
+    height: 75rem;
+}
+
+.green-box
+{
+    height: 60rem;
+    background-color: #228b22;
+    border: 2px dashed black;
+}
+/* #endregion last */
 /* #endregion main */
 
