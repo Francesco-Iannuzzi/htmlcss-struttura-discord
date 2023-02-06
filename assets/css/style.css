@@ -12,7 +12,7 @@
     margin: auto;
 }
 
-.container-flex
+.flex
 {
     display: flex;
 }
@@ -21,17 +21,13 @@
 
 #app_header
 {
-    height: 40rem;
     background-color: black;
-}
-
-/* #region up_header */
-.up_header
-{
     height: 5rem;
     background-color: #add8e6;
     padding: 1rem 0;
 }
+
+/* #region up_header */
 
 .navigation
 {
@@ -46,13 +42,13 @@
     vertical-align: middle;
 }
 
-.container-flex > .logo-header,
-.container-flex > .login-header
+.flex > .logo-header,
+.flex > .login-header
 {
     flex-grow: 1;
 }
 
-.container-flex > .link-header
+.flex > .link-header
 {
     flex-grow: 3;
 }
@@ -65,8 +61,18 @@
 
 .link-header
 {
-    text-align: center;
     border: 2px dashed black;
+}
+
+.flex
+{
+    justify-content: center;
+}
+
+li
+{
+    list-style: none;
+    margin: 0 1rem;
 }
 
 .login-header
@@ -78,15 +84,15 @@
 
 /* #endregion up_header */
 
-/* region banner */
+/* region sec_banner */
 
-.down_header
+.sec_banner
 {
     height: 35rem;
     background-color: #00008b;
 }
 
-.container-flex.down_header
+.flex.down_header
 {
     justify-content: center;
     align-items: center;
@@ -100,7 +106,7 @@
     background-color: #ee82ee;
     border: 2px dashed black;
 }
-/* #endregion down_header */
+/* #endregion sec_banner */
 
 /* #region main */
 
@@ -123,7 +129,7 @@
     height: 35rem;
 }
 
-.even.container-flex > .card
+.even.flex > .card
 {
     flex-direction: row-reverse;
 }
@@ -188,7 +194,7 @@
     border: 2px dashed black;
 }
 
-.container-flex > .salmon-box
+.flex > .salmon-box
 {
     flex-grow: 2;
 }
@@ -199,7 +205,7 @@
     border: 2px dashed white;
 }
 
-.container-flex > .aquamarine-box
+.flex > .aquamarine-box
 {
     flex-grow: 1;
 }
@@ -209,7 +215,7 @@
 .down_footer
 {
     height: 15%;
-    border-top: 2px solid white;
+    border-top: 1px solid white;
 }
 
 .mint-box
@@ -219,7 +225,7 @@
     margin-bottom: 0;
 }
 
-.container-flex.mint-box
+.flex.mint-box
 {
     justify-content: space-between;
     align-items: center;
